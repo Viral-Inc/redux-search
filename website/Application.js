@@ -35,6 +35,9 @@ export function Application ({
   searchData,
   searchImmutableData
 }) {
+
+  console.log('searchData:', searchData)
+
   return (
     <div>
       <Header/>
